@@ -1,0 +1,10 @@
+{
+  "name": "Movie Discovery Hub",
+  "short_name": "Movie Hub",
+  "description": "Discover films and manage your watchlist offline.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "icons": []
+}
