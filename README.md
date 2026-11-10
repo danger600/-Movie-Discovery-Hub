@@ -8,6 +8,10 @@ Responsive international movie and TV discovery app built with React, TypeScript
 - Movie/TV detail view, synopsis, rating, release date, runtime, genres, cast and YouTube trailer link when available.
 - Actor profiles with biography, birthday, birthplace and known credits.
 - Local favourites, watchlist and watched lists stored in this browser.
+- Create custom collections and add/remove titles to organize a personal cinema library.
+- Export and import a JSON backup of favourites, watchlist, watched titles and collections.
+- Share movie and series details using native device sharing or a copied deep link.
+- Random title discovery with the Surprise me action; filter and sort results by popularity, rating, release year and genre.
 - Responsive desktop/mobile layout and online/offline indicator.
 - Capacitor Android configuration and scripts.
 
@@ -38,7 +42,7 @@ In Android Studio choose Build → Build Bundle(s) / APK(s) → Build APK(s). iO
 Deploy to Vercel or Netlify with build command `npm run build` and output directory `dist`. Users add their own TMDB token in app Settings; do not commit it.
 
 ## Data and privacy
-This version does not yet include Supabase/Firebase accounts or cloud sync. Favourites, watchlist and watched state are local to the current browser/device. Live TMDB data requires internet; do not assume the full catalogue works offline.
+This version does not yet include Supabase/Firebase accounts or cloud sync. Favourites, watchlist, watched state and custom collections are local to the current browser/device. Use the library export/import controls to move a JSON backup between browsers. Shared title links identify a TMDB title but do not transfer private library data. Live TMDB data requires internet; do not assume the full catalogue works offline.
 
 ## Roadmap
 See `FEATURE_ROADMAP.md` for the 700+ capability backlog. Roadmap entries are planned capabilities, not claims that every item is already implemented.
